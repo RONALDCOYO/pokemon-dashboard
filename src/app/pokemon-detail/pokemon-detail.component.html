@@ -1,0 +1,7 @@
+<h2 mat-dialog-title>{{ pokemonName | titlecase }}</h2>
+<mat-dialog-content>
+  <img [src]="pokemonSpriteUrl" alt="{{ pokemonName }}" />
+  <p><strong>Height:</strong> {{ pokemonHeight }}</p>
+  <p><strong>Weight:</strong> {{ pokemonWeight }}</p>
+  <p><strong>Types:</strong> {{ pokemonTypes.join(', ') }}</p>
+</mat-dialog-content>

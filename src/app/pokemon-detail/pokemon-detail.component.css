@@ -1,0 +1,9 @@
+mat-dialog-content {
+    text-align: center;
+  }
+  
+  mat-dialog-content img {
+    width: 150px;
+    height: 150px;
+  }
+  
